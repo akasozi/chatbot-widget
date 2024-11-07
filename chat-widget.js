@@ -131,7 +131,7 @@
     chatInput.value = '';
 
     var xmlhttp = new XMLHttpRequest();
-    xmlhttp.open("POST", "http://162.243.123.198:8383/api/v1/chats", true);
+    xmlhttp.open("POST", "https://bot.cloudflow.co.ke:8080/api/v1/chats", true);
     xmlhttp.setRequestHeader("Content-Type", "application/json");
     xmlhttp.setRequestHeader("Access-Control-Allow-Origin", "*");
     // xmlhttp.setRequestHeader("Access-Control-Allow-Origin", "*");
